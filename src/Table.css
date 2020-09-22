@@ -1,0 +1,22 @@
+.table {
+   overflow: hidden;
+   height: 300px;
+   padding-bottom: 25px;
+   margin-bottom: 10px;
+}
+.table:hover {
+    overflow-y: scroll;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.4rem;
+}
+
+tr:nth-child(odd) {
+    background-color: #d4d6d9;
+}
